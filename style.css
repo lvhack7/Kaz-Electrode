@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Impact'; /* The name you'll use in CSS */
+    src: url('./assets/fonts/Impact.ttf') format('truetype');
+    font-weight: normal; /* You can specify weight (optional) */
+    font-style: normal;  /* You can specify style (optional) */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #101211;
+    scroll-behavior: smooth;
+}
+
+.bg-dark {
+    background-color: #101211;
+}
+
+.font-rem {
+    font-family: "REM", sans-serif;
+    font-style: normal;
+}
+
+.font-rob {
+    font-family: "Robot", sans-serif;
+    font-style: normal;
+}
+
+.font-impact {
+    font-family: 'Impact', sans-serif; /* Use your custom font */
+}
+
+.bg-banner2 {
+    background-image: url("./assets/imgs/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

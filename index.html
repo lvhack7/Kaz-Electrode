@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" >
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header id="main" class="container mx-auto px-4 sm:px-0 py-5">
+        <nav class="flex items-center justify-between">
+            <a class="flex items-center space-x-1 sm:space-x-2">
+                <img class="w-[20px] sm:w-[40px]" src="./assets/imgs/logo.png" />
+                <p class="font-rem text-xs sm:text-2xl font-medium uppercase">ТОО КазЭлектрод</p>
+            </a>
+            <ul class="flex items-center space-x-3 md:space-x-10 font-rob text-[10px] sm:text-normal lg:text-lg">
+                <li>
+                    <a href="#main">Главная</a>
+                </li>
+                <li>
+                    <a href="#catalog">Каталог</a>
+                </li>
+                <li>
+                    <a href="#about">О компании</a>
+                </li>
+                <li>
+                    <a href="#contact">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex flex-col mt-8 lg:mt-20 space-y-10 lg:space-y-20">
+        <section class="container mx-auto px-4 sm:px-0">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
+                <h1 class="font-impact font-semibold text-5xl md:text-5xl lg:text-6xl xl:text-8xl uppercase mt-auto">
+                    Единственный производитель электродов в Казахстане
+                </h1>
+                <div class="block md:hidden space-y-4">
+                    <p class="md:text-xl xl:text-3xl text-gray-700 lg:pr-10">Высокое качество, проверенное временем. Строгое соблюдение ГОСТам 9466-75, 9467-75 и СТ-КЗ.</p>
+                    <button>
+                        <a href="#contact" class="px-6 py-3 border-2 border-[#F25801] w-auto hover:bg-[#F25801] hover:text-white uppercase">
+                            Заказать сейчас
+                        </a>
+                    </button>
+                </div>
+                <div class="hidden md:block space-y-5 xl:space-y-8 mt-auto pl-10">
+                    <img src="./assets/imgs/kz.png" class="w-[25%] lg:w-[30%] xl:w-[45%]" >
+                    <p class="md:text-lg xl:text-3xl text-gray-700 lg:pr-10">Высокое качество, проверенное временем. Строгое соблюдение ГОСТам 9466-75, 9467-75 и СТ-КЗ.</p>
+                    <button>
+                        <a href="#contact" class="px-8 py-4 border-2 border-[#F25801] w-auto hover:bg-[#F25801] hover:text-white uppercase">
+                            Заказать сейчас
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <img class="w-full mt-8" src="./assets/imgs/banner.png" >
+        </section>
+        <section class="bg-dark">
+            <div class="container mx-auto py-20 px-4 md:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    <div class="order-2 lg:order-1">
+                        <img class="w-full h-full" src="./assets/imgs/banner1.png" >
+                    </div>
+                    <div class="order-1 lg:order-2 flex flex-col space-y-6 md:space-y-10 justify-center">
+                        <div class="flex items-start space-x-6 lg:space-x-8">
+                            <p class="text-[#F25801] font-bold text-6xl md:text-[111px] font-impact">1</p>
+                            <div class="flex flex-col space-y-2">
+                                <p class="text-white uppercase font-impact font-medium text-2xl lg:text-3xl">СТ-КЗ И индустриальный сертиФИКАТ</p>
+                                <p class="text-white max-w-lg">Паспорт производства, удостоверяющий, что обладатель сертификата является полноценным производителем отечественных товаров и услуг.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6 lg:space-x-8">
+                            <p class="text-[#F25801] font-bold text-6xl md:text-[111px] font-impact">2</p>
+                            <div class="flex flex-col space-y-2">
+                                <p class="text-white uppercase font-impact font-medium text-2xl lg:text-3xl">Производство электродов по ГОСТ</p>
+                                <p class="text-white max-w-lg">Вся продукция КазЭлектрод соответствует стандартам ГОСТ 9466-75 и 9467-75, что делает наши электроды пригодными для использования в самых ответственных конструкциях.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6 lg:space-x-8">
+                            <p class="text-[#F25801] font-bold text-6xl md:text-[111px] font-impact">3</p>
+                            <div class="flex flex-col space-y-2">
+                                <p class="text-white uppercase font-impact font-medium text-2xl lg:text-3xl">используем Рецептуры института Патона</p>
+                                <p class="text-white max-w-lg">Наша компания сотрудничает с Институтом сварки им. Патона, что обеспечивает использование проверенных и усовершенствованных рецептур в производстве электродов.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6 lg:space-x-8">
+                            <p class="text-[#F25801] font-bold text-6xl md:text-[111px] font-impact">4</p>
+                            <div class="flex flex-col space-y-2">
+                                <p class="text-white uppercase font-impact font-medium text-2xl lg:text-3xl">работаем с крупными корпорациями</p>
+                                <p class="text-white max-w-lg">Среди наших клиентов такие гиганты как КТЖ, Евразийская Группа и Казахмыс. Мы гордимся долгосрочным сотрудничеством с крупнейшими корпорациями в Казахстане.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalog" class="container mx-auto pt-10 px-4 md:px-0">
+            <div class="flex flex-col">
+                <h2 class="font-impact font-medium text-5xl lg:text-7xl uppercase">Каталог нашей продукции</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-16">
+                    <div class="bg-dark p-5 md:p-8 md:min-h-[550px]">
+                        <div class="grid grid-cols-1 md:grid-cols-7 md:gap-6 w-full h-full">
+                            <div class="col-span-3">
+                                <img src="./assets/imgs/catalog/2.png" class="object-cover w-full h-full" >
+                            </div>
+                            <div class="col-span-4 mt-4 md:mt-0">
+                                <div class="flex flex-col h-full">
+                                    <p class="text-white uppercase font-impact text-4xl font-medium">Уони 13/45 Диам 3,4,5</p>
+                                    <p class="text-white font-rob text-lg mt-8">
+                                        Это электроды с основным покрытием, предназначенные для сварки ответственных конструкций из низкоуглеродистых и низколегированных сталей, когда к металлу сварных швов предъявляются повышенные требования по пластичности и ударной вязкости. Рекомендуются для сварки конструкций, работающих в условиях пониженных температур.
+                                    </p>
+                                    <div class="flex items-center justify-between mt-5 md:mt-auto">
+                                        <p class="text-white font-rob text-2xl font-semibold">Цена: 900 тенге за 1 кг</p>
+                                        <img src="./assets/icons/shop.svg">
+                                    </div>  
+                                </div>
+                            </div>
+                             
+                        </div>
+                    </div>
+                    <div class="bg-dark p-5 md:p-8 md:min-h-[550px]">
+                        <div class="grid grid-cols-1 md:grid-cols-7 md:gap-6  w-full h-full">
+                            <div class="col-span-3">
+                                <img src="./assets/imgs/catalog/3.png" class="object-cover w-full h-full" >
+                            </div>
+                            <div class="col-span-4 mt-4 md:mt-0">
+                                <div class="flex flex-col h-full">
+                                    <p class="text-white uppercase font-impact text-4xl font-medium">Уони 13/55 Диам 3,4,5</p>
+                                    <p class="text-white font-rob text-lg mt-8">
+                                        Электроды УОНИ-13/55 с основным покрытием предназначены для ручной электродуговой сварки особо ответственных конструкций из низкоуглеродистых, среднеуглеродистых и низколегированных сталей, работающих при знакопеременных нагрузках и отрицательных температурах до -50 °С. Стержень электрода – проволока марки Св-08А ГОСТ 2246-70.
+                                    </p>
+                                    <div class="flex items-center justify-between mt-5 md:mt-auto">
+                                        <p class="text-white font-rob text-2xl font-semibold">Цена: 950 тенге за 1 кг</p>
+                                        <img src="./assets/icons/shop.svg">
+                                    </div>  
+                                </div>
+                            </div>
+                             
+                        </div>
+                    </div>
+                    <div class="bg-dark p-5 md:p-8 md:min-h-[550px]">
+                        <div class="grid grid-cols-1 md:grid-cols-7 md:gap-6 w-full h-full">
+                            <div class="col-span-3">
+                                <img src="./assets/imgs/catalog/1.png" class="object-cover w-full h-full" >
+                            </div>
+                            <div class="col-span-4 mt-4 md:mt-0">
+                                <div class="flex flex-col h-full">
+                                    <p class="text-white uppercase font-impact text-4xl font-medium">МР-3 диам 3,4,5</p>
+                                    <p class="text-white font-rob text-lg mt-8">
+                                        Предназначен для ручной дуговой сварки конструкций из углеродистых сталей с содержанием углерода до 0,25%. Сварка во всех пространственных положениях, кроме вертикального сверху вниз, постоянным током обратной полярности и переменным током от источников питания с напряжением холостого хода (70± 10В). ГОСТ 9466-75, ГОСТ 9467-75; тип МР-З, коэффициент наплавки 7,5-8 г/Ач, расход электродов на 1 кг наплавленного металла 1,7 кг.
+                                    </p>
+                                    <div class="flex items-center justify-between mt-5 md:mt-auto">
+                                        <p class="text-white font-rob text-2xl font-semibold">Цена: 850 тенге за 1 кг</p>
+                                        <img src="./assets/icons/shop.svg">
+                                    </div>  
+                                </div>
+                            </div>
+                             
+                        </div>
+                    </div>
+                    <div class="bg-dark p-5 md:p-8 md:min-h-[550px]">
+                        <div class="grid grid-cols-1 md:grid-cols-7 md:gap-6 w-full h-full">
+                            <div class="col-span-3">
+                                <img src="./assets/imgs/catalog/5.png" class="object-cover w-full h-full" >
+                            </div>
+                            <div class="col-span-4 mt-4 md:mt-0">
+                                <div class="flex flex-col h-full">
+                                    <p class="text-white uppercase font-impact text-4xl font-medium">МР-3 РУТИЛ диам 3,4,5</p>
+                                    <p class="text-white font-rob text-lg mt-8">
+                                        С рутиловым покрытием предназначены для ручной дуговой сварки ответственных конструкций из углеродистых и низколегированных сталей, с временным сопротивлением разрыву до 500 МПа, когда к получаемым швам предъявляются повышенные требования.
+                                    </p>
+                                    <div class="flex items-center justify-between mt-5 md:mt-auto">
+                                        <p class="text-white font-rob text-2xl font-semibold">Цена: 1100 тенге за 1 кг</p>
+                                        <img src="./assets/icons/shop.svg">
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark w-full p-8 mt-6">
+                    <div class="flex flex-col md:flex-row items-center gap-10">
+                        <div class="flex-none shrink-0">
+                            <img src="./assets/imgs/produce.png" class="w-full h-full object-cover md:max-w-sm"> <!-- Add max-width to control shrinking -->
+                        </div>
+                        <div class="grow">
+                            <div class="flex flex-col space-y-3">
+                                <p class="text-white font-impact text-3xl uppercase font-medium">Мы производим</p>
+                                <p class="text-lg text-white">Спец электроды под заказ, учитывая индивидуальные требования наших клиентов. Мы предлагаем гибкие условия производства, гарантируя точное соответствие параметров электродов под конкретные задачи и проекты.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="bg-banner2">
+            <div class="container mx-auto py-10 md:pt-32 md:pb-20 px-4 md:px-0">
+                <h2 class="font-impact text-white text-4xl md:text-7xl font-medium max-w-7xl uppercase">
+                    "ТОО КазЭлектрод <span class="text-[#F25801]">—</span> производитель сварочных электродов в Казахстане. Производим продукцию 
+<br>по ГОСТ и СТ-КЗ, адаптированную 
+<br>к казахстанскому рынку"
+                </h2>
+                <div class="flex flex-col mt-16 lg:mt-32">
+                    <p class="uppercase text-white font-rob text-xl">Наши клиенты</p>
+                    <div class="w-full flex flex-col relative overflow-hidden mt-3">
+                    
+                        <div class="flex flex-wrap gap-6 transition-transform duration-300 justify-between mt-5">
+                            <div class="bg-black grid grid-cols-2 gap-4 sm:grid-cols-1 w-full sm:w-auto">
+                                <div class="flex items-center space-x-2 md:space-x-4 p-1 sm:p-4">
+                                    <img src="./assets/imgs/company/1.png" alt="Company 1" class="w-14 md:w-20" />
+                                    <span class="text-white font-semibold text-sm sm:text-2xl font-rob uppercase">ЕВРАЗИЙСКАЯ<br>ГРУППА</span>
+                                </div>
+                                <div class="sm:hidden flex justify-end">
+                                    <div class="h-full w-[90%] bg-[#F25801]"></div>
+                                </div>
+                            </div>
+                            <div class="bg-black grid grid-cols-2 gap-4 sm:grid-cols-1 w-full sm:w-auto">
+                                <div class="flex items-center space-x-2 md:space-x-4 p-1 sm:p-4">
+                                    <img src="./assets/imgs/company/2.png" alt="Company 1" class="w-14 sm:w-20" />
+                                    <span class="text-white font-semibold text-sm sm:text-2xl font-rob uppercase">КТЖ - Грузовые<br>перевозки</span>
+                                </div>
+                                <div class="sm:hidden flex justify-end">
+                                    <div class="h-full w-[90%] bg-[#F25801]"></div>
+                                </div>
+                            </div>
+                            <div class="bg-black grid grid-cols-2 gap-4 sm:grid-cols-1 w-full sm:w-auto">
+                                <div class="flex items-center space-x-2 md:space-x-4 p-1 sm:p-4">
+                                    <img src="./assets/imgs/company/3.png" alt="Company 1" class="w-14 sm:w-20" />
+                                <span class="text-white font-semibold text-sm sm:text-2xl font-rob uppercase">Казахмыс</span>
+                                </div>
+                                <div class="sm:hidden flex justify-end">
+                                    <div class="h-full w-[90%] bg-[#F25801]"></div>
+                                </div>
+                            </div>
+                            <div class="bg-black grid grid-cols-2 gap-4 sm:grid-cols-1 w-full sm:w-auto">
+                                <div class="flex items-center space-x-2 md:space-x-4 p-1 sm:p-4">
+                                    <img src="./assets/imgs/company/4.png" alt="Company 1" class="w-14 sm:w-20" />
+                                <span class="text-white font-semibold text-sm sm:text-2xl font-rob uppercase">Казактелеком</span>
+                                </div>
+                                <div class="sm:hidden flex justify-end">
+                                    <div class="h-full w-[90%] bg-[#F25801]"></div>
+                                </div>
+                            </div>
+                            <!-- Add more items as needed -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto lg:pt-10 px-4 sm:px-0">
+            <div class="flex flex-col space-y-10 lg:space-y-16">
+                <h2 class="font-impact font-medium text-5xl md:text-7xl uppercase">Отзывы наших клиентов</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20">
+                    <div class="bg-dark p-4">
+                        <div class="flex flex-col space-y-5">
+                            <img src="./assets/imgs/reviews/1.png" class="w-full" >
+                            <p class="text-white uppercase font-impact text-3xl font-medium">Александр К., главный инженер</p>
+                            <p class="text-white font-rob text-lg">«Работаем с КазЭлектрод уже несколько лет. Электроды всегда стабильного качества, соответствуют всем заявленным характеристикам. Особенно отмечу продукцию УОНИ-13/55, которая отлично подходит для сварки сложных конструкций. Приятно, что компания всегда быстро реагирует на наши запросы и обеспечивает своевременные поставки. Это надежный партнер, с которым приятно сотрудничать.»</p> 
+                        </div>
+                    </div>
+                    <div class="bg-dark p-4">
+                        <div class="flex flex-col space-y-5">
+                            <img src="./assets/imgs/reviews/2.png" class="w-full" >
+                            <p class="text-white uppercase font-impact text-3xl font-medium">Мария П., начальник отдела закупок</p>
+                            <p class="text-white font-rob text-lg">«Мы выбрали КазЭлектрод как основного поставщика сварочных электродов благодаря качеству продукции и доступным ценам. Особенно хотим отметить оперативность доставки и поддержку со стороны менеджеров компании. Электроды МР-3 используют наши сварщики для различных ремонтных работ — они довольны легкостью работы с ними и качеством швов.»</p>
+                        </div>
+                    </div>
+                    <div class="bg-dark p-4">
+                        <div class="flex flex-col space-y-5">
+                            <img src="./assets/imgs/reviews/3.png" class="w-full" >
+                            <p class="text-white uppercase font-impact text-3xl font-medium">Дмитрий С., технический директор</p>
+                            <p class="text-white font-rob text-lg">«Для нас важно, чтобы материалы соответствовали высоким стандартам, особенно в ответственных проектах. Электроды от КазЭлектрод полностью соответствуют нашим требованиям по качеству и надежности. УОНИ-13/45 и УОНИ-13/55 хорошо себя зарекомендовали при работе с металлоконструкциями. Плюс, компания всегда идет навстречу в вопросах логистики и сроков поставок.»</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-dark text-white py-10 lg:pt-20 lg:pb-32">
+            <div class="container mx-auto px-4 md:px-0">
+                <!-- Title Section -->
+                <div class="flex flex-wrap items-end justify-between gap-4">
+                    <h1 class="font-medium font-impact text-5xl lg:text-8xl font-medium uppercase">Наши ключевые<br>показатели в мире<br>сварочных решений</h1>
+                    <p class="text-lg lg:text-xl max-w-lg">
+                        «КазЭлектрод» — лидер производства сварочных электродов в Казахстане. Наши цифры и результаты отражают высокий уровень качества и надёжности, которые мы предоставляем каждому партнёру.
+                    </p>
+                </div>
+                
+                <!-- Statistics Section -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10 md:mt-20">
+                    <!-- Column 1 -->
+                    <div class="flex flex-col space-y-4 md:space-y-8 pb-6">
+                        <div class="w-full bg-white h-[1px]"></div>
+                        <p class="text-sm font-rob text-xl">Тонны произведенных электродов</p>
+                        <p class="font-impact text-8xl lg:text-9xl text-[#F25801] font-bold mt-2">15,000</p>
+                    </div>
+                    <div class="flex flex-col space-y-4  md:space-y-8 pb-6">
+                        <div class="w-full bg-white h-[1px]"></div>
+                        <p class="text-sm font-rob text-xl">Представлены на рынке </p>
+                        <p class="font-impact text-8xl lg:text-9xl text-[#F25801] font-bold mt-2">20лет</p>
+                    </div>
+                    <div class="flex flex-col space-y-4  md:space-y-8">
+                        <div class="w-full bg-white h-[1px]"></div>
+                        <p class="text-sm font-rob text-xl">Довольные клиенты</p>
+                        <p class="font-impact text-8xl lg:text-9xl text-[#F25801] font-bold mt-2">850+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container mx-auto py-10 px-4 md:px-0">
+            <div class="grid grid-cols-2 gap-4 md:gap-10">
+                <div class="flex flex-col justify-center">
+                    <h2 class="font-impact uppercase text-4xl md:text-7xl font-medium">свяжитесь с нами</h2>
+                    <p class="md:text-lg mt-4 font-rob">Оставьте заявку для получения консультации по выбору электродов или для оформления заказа.</p>
+                    <form id="contactForm" class="mt-5 sm:mt-8">
+                        <!-- Full Name Field -->
+                        <div class="flex flex-col md:flex-row gap-4 w-full">
+                            <div>
+                                <input type="text" name="name" class="mt-1 py-2 sm:text-xl w-full border-b-2 border-gray-300 focus:outline-none focus:border-orange-500 placeholder-gray-700" placeholder="ФИО" required>
+                            </div>
+                    
+                            <!-- Email Field -->
+                            <div>
+                                <input type="email" name="email" class="mt-1 py-2 sm:text-xl w-full border-b-2 border-gray-300 focus:outline-none focus:border-orange-500 placeholder-gray-700" placeholder="Электронная почта" required>
+                            </div>
+                        </div>
+                
+                        <!-- Submit Button -->
+                        <div class="col-span-2 flex justify-start mt-8">
+                            <button type="submit" class="p-2 text-sm md:text-normal md:px-8 md:py-3 border-2 border-[#F25801] hover:bg-[#F25801] hover:text-white transition-all">ОТПРАВИТЬ ЗАЯВКУ</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="flex md:p-5">
+                    <img src="./assets/imgs/contact.png" class="object-cover w-full h-full" >
+                </div> 
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <div class="flex flex-col">
+            <div class="container mx-auto py-10 px-4 md:px-0 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="flex flex-col h-full">
+                    <h2 class="font-impact text-white font-medium text-4xl md:text-5xl"><span class="text-[#F25801]">ТОО</span> КазЭлектрод</h2>
+                    <div class="hidden md:block mt-auto">
+                        <ul class="flex items-center space-x-8 font-rob text-white">
+                            <li>
+                                <a href="#main">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#catalog">Каталог</a>
+                            </li>
+                            <li>
+                                <a href="#about">О компании</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:items-end h-full">
+                    <div class="flex flex-col space-y-8">
+                        <div class="text-white">
+                            <p class="uppercase font-impact text-2xl md:text-3xl font-medium">телефон:</p>
+                            <p class="mt-2 font-rob">
+                                менеджер по продажам<br>+7 (777) 784 44 01
+                            </p>
+                        </div>
+                        <div class="text-white">
+                            <p class="uppercase font-impact text-2xl md:text-3xl font-medium">ПОЧТА:</p>
+                            <p class="mt-2 font-rob">
+                                tookazelektrod@gmail.com
+                            </p>
+                        </div>
+                        <div class="text-white">
+                            <p class="uppercase font-impact text-2xl md:text-3xl font-medium">Юр.адрес: </p>
+                            <p class="mt-2 font-rob max-w-md">
+                                Республика Казахстан, Алматинская область, Жамбылский район, Сельский округ Каргалинский, Село Каргалы, ул.Наурыз, дом 8.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:hidden border-t border-white">
+                <ul class="flex items-center space-x-6 font-rob text-white px-5 py-4">
+                    <li>
+                        <a href="#main">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#catalog">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#about">О компании</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal" class="hidden fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 overflow-auto">
+        <div class="bg-white w-3/4 md:w-1/2 lg:w-1/3 p-6 shadow-lg relative">
+          <span id="closeModal" class="absolute top-4 right-4 text-2xl font-bold cursor-pointer">&times;</span>
+          <div class="flex flex-col justify-center items-center space-y-4 p-2">
+            <p class="font-impact font-medium text-3xl text-center">Поздравляем!<br>Ваша заявка оформлена!</p>
+            <p class="font-rob font-medium text-[#FF5C00] text-center">Ожидайте звонка в ближайшее время</p>
+            <img src="./assets/imgs/modal.png" class="w-[150px] sm:w-[200px]" >
+          </div>
+        </div>
+    </div>
+
+    <div id="failureModal" class="hidden fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 overflow-auto">
+        <div class="bg-white w-3/4 md:w-1/2 lg:w-1/3 p-6 rounded-lg shadow-lg relative">
+          <div class="flex flex-col justify-center items-center space-y-5">
+            <span id="closeFailureModal" class="absolute top-4 right-4 text-2xl font-bold cursor-pointer">&times;</span>
+            <p class="font-impact text-3xl font-medium text-red-500 mb-4">Ошибка!</p>
+            <p class="font-rob font-medium text-center text-lg">Не удалось оформить заявку.</p>
+            <p class="text-gray-500 mt-2 text-center">Пожалуйста, попробуйте еще раз.</p>
+          </div>
+        </div>
+    </div>
+
+    <script src="./script.js" ></script>
+</body>
+</html>
